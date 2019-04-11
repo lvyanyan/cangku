@@ -1,0 +1,27 @@
+<form>
+<view class="radios">
+ <radio-group>
+ <text>类型：</text>
+  <label class="radio">
+    <radio value=""/>求助
+  </label>
+  <label class="radio">
+    <radio value=""/>咨询
+  </label>
+  <label class="radio">
+    <radio value=""/>建议
+  </label>
+ </radio-group>
+</view>
+<view class="title">内容</view>
+<textarea class="texa" placeholder='请在这里描述你的问题'></textarea>
+<view class="inp">
+  <text>联系人</text><text class="b">*</text>
+  <input type='text'></input>
+</view>
+<view class="inp">
+  <text>手机号</text><text class="b">*</text>
+  <input type='number'></input>
+</view>
+<button class="sub">提交</button>
+</form>

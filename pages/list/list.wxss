@@ -1,0 +1,41 @@
+.t-title {
+  padding: 20rpx 20rpx;
+  color: #212121;
+  font-size: 35rpx;
+}
+
+.t-scroll-header {
+  display: flex;
+  white-space: nowrap;
+  width: 94%;
+  margin: 0 auto;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #f4f5f7;
+}
+
+.t-scroll-header view {
+  width: 258rpx;
+  display: inline-block;
+}
+
+.t-rel-list{
+  margin-right: 25rpx;
+}
+
+
+.t-rel-list image {
+  width: 100%;
+  height: 180rpx;
+}
+
+.t-text {
+  font-size: 30rpx;
+  display: block
+}
+
+.conceal {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

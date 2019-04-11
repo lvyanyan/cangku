@@ -1,0 +1,25 @@
+/* pages/my/my.wxss */
+navigator{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #ccc;
+  margin-left:20rpx;
+  margin-right: 20rpx;
+  font-size: 24rpx;
+  overflow: hidden;
+}
+image{
+  width: 60rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  height: 60rpx;
+  margin-right: 30rpx;
+  float: left;
+}
+.lf{
+  float: left;
+}
+.rf{
+  float: right;
+  color:#aaa;
+}

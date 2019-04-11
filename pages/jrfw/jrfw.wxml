@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">金融知识</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">金融产品</view>
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">成功案例</view>
+</view>
+ 
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+    <!-- 金融知识 -->
+    <swiper-item>
+      <view class='news-list' wx:for="{{list}}" wx:key="id">
+      <view class="lf">
+        <h4 class="news-title">{{item.title}}</h4>
+        <text class="news-time">{{item.time}}</text>
+        <text class="news-count">{{item.count}}阅读</text>
+        
+      </view>
+      <view class="rf"><image src="{{item.imgUrl}}"></image></view>
+    </view>
+    </swiper-item>
+    <!-- 金融产品 -->
+    <swiper-item>
+      <view class='news-list' wx:for="{{list}}" wx:key="id">
+      <view class="lf">
+        <h4 class="news-title">{{item.title}}</h4>
+        <text class="news-time">{{item.time}}</text>
+        <text class="news-count">{{item.count}}阅读</text>
+        
+      </view>
+      <view class="rf"><image src="{{item.imgUrl}}"></image></view>
+    </view>
+    </swiper-item>
+    <!-- 成功案例 -->
+    <swiper-item>
+      <view class='news-list' wx:for="{{list}}" wx:key="id">
+      <view class="lf">
+        <h4 class="news-title">{{item.title}}</h4>
+        <text class="news-time">{{item.time}}</text>
+        <text class="news-count">{{item.count}}阅读</text>
+        
+      </view>
+      <view class="rf"><image src="{{item.imgUrl}}"></image></view>
+    </view>
+    </swiper-item>
+</swiper>

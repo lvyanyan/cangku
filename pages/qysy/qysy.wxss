@@ -1,0 +1,83 @@
+/* pages/qysy/qysy.wxss */
+.radios{
+  width: 680rpx;
+  height: 70rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  border:1px solid #ccc;
+  padding-left: 20rpx;
+  padding-top: 40rpx;
+  font-size: 28rpx;
+}
+radio{
+    width: 38rpx;
+    color: #ccc;
+    margin-left: 60rpx;
+}
+ .radios label{
+   color:#cccccc;
+ }
+radio .wx-radio-input{
+    border-radius: 50%; 
+    width: 28rpx;
+    height: 28rpx;
+    background: #cccccc;
+}
+
+radio .wx-radio-input.wx-radio-input-checked::before{
+  border-radius: 50%;
+    width: 56rpx; 
+    height: 56rpx; 
+    font-size: 0; /* 对勾大小 26rpx */
+    color:#d13125; /* 对勾颜色 */
+    background: #d13125;
+    border-color: #d13125;
+}
+.title{
+  margin-top: 15rpx;
+  margin-bottom: 20rpx;
+  margin-left:50rpx;
+}
+.texa{
+  width:660rpx;
+  height: 450rpx;
+  border:1px solid #ccc;
+  border-radius: 15rpx;
+  background-color: #fff;
+  margin-left: 20rpx;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  font-size: 32rpx;
+  color:#333;
+}
+.inp{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  overflow: hidden;
+}
+.inp text{
+  float:left;
+}
+.inp text.b{
+  color:#d13125;
+}
+.inp input{
+  float: left;
+  width: 540rpx;
+  margin-left: 10rpx;
+  border-bottom:1px solid #ccc; 
+}
+.sub{
+  background-color: #d13125;
+  color:#fff;
+  width:600rpx;
+  height: 70rpx;
+  margin-top: 100rpx;
+  line-height: 70rpx;
+  border-radius: 30rpx;
+}
+

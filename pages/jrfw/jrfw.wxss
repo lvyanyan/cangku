@@ -1,0 +1,45 @@
+/**index.wxss**/
+.swiper-tab{
+	width: 100%;
+	text-align: center;
+	line-height: 80rpx;}
+.swiper-tab-list{  font-size: 30rpx;
+    display: inline-block;
+	width: 33.33%;
+	color: #777777;
+}
+.on{ color: #d13125;
+	border-bottom: 5rpx solid #d13125;}
+ 
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }
+.news-list{
+  height:165rpx;
+  padding-top: 25rpx;
+  padding-left: 25rpx;
+  overflow: hidden;
+}
+.lf{
+  float:left;
+  padding-top: 10rpx;
+}
+.lf h4{
+  display: block;
+}
+.lf text{
+  color:#3c3c3c;
+  font-size: 16rpx;
+  line-height: 80rpx;
+}
+.news-count{
+  margin-left:20rpx;
+}
+.rf{
+  float:right;
+  width: 220rpx;
+  height: 135rpx;
+  overflow: hidden;
+}
+.rf image{
+  width: 220rpx;
+  height: 135rpx;
+}

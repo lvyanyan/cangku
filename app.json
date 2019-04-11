@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/news/news",
+    "pages/my/my",
+    "pages/qyrz/qyrz",
+    "pages/wdsc/wdsc",
+    "pages/wdsy/wdsy",
+    "pages/sz/sz",
+    "pages/fx/fx",
+    "pages/ptyj/ptyj",
+    "pages/jrfw/jrfw",
+    "pages/qysy/qysy"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d13125",
+    "navigationBarTitleText": "张北县企业创新服务平台",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "asset/home.png",
+      "selectedIconPath": "asset/home_s.png"
+    },
+    {
+      "pagePath": "pages/news/news",
+      "text": "资讯",
+      "iconPath": "asset/news.png",
+      "selectedIconPath": "asset/news_s.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "asset/my.png",
+      "selectedIconPath": "asset/my_s.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

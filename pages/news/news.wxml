@@ -1,0 +1,12 @@
+<view class="news">
+    
+    <view class='news-list' wx:for="{{list}}" wx:key="id">
+      <view class="lf">
+        <h4 class="news-title">{{item.title}}</h4>
+        <text class="news-time">{{item.time}}</text>
+        <text class="news-count">{{item.count}}阅读</text>
+        
+      </view>
+      <view class="rf"><image src="{{item.imgUrl}}"></image></view>
+    </view>
+  </view>

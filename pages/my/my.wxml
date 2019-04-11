@@ -1,0 +1,33 @@
+<!--pages/my/my.wxml-->
+<view>
+  <navigator url='../qyrz/qyrz'>
+    <image src='asset/qy.png'></image>
+    <text class='lf'>企业认证</text>
+    <text class='rf'>>></text>
+  </navigator>
+  <navigator url='../wdsc/wdsc'>
+    <image src='asset/qy.png'></image>
+    <text class='lf'>我的收藏</text>
+    <text class='rf'>>></text>
+  </navigator>
+  <navigator url='../wdsy/wdsy'>
+    <image src='asset/qy.png'></image>
+    <text class='lf'>我的声音</text>
+    <text class='rf'>>></text>
+  </navigator>
+  <navigator url='../sz/sz'>
+    <image src='asset/qy.png'></image>
+    <text class='lf'>设置</text>
+    <text class='rf'>>></text>
+  </navigator>
+  <navigator url='../fx/fx'>
+    <image src='asset/qy.png'></image>
+    <text class='lf'>分享</text>
+    <text class='rf'>>></text>
+  </navigator>
+  <navigator url='../ptyj/ptyj'>
+    <image src='asset/qy.png'></image>
+    <text class='lf'>平台意见</text>
+    <text class='rf'>>></text>
+  </navigator>
+</view>

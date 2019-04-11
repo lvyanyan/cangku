@@ -1,0 +1,86 @@
+<view class="container">
+  <view class="page-body">
+    <view class="search">
+      <button>搜索文章企业服务</button>
+    </view>
+    <view class="page-section page-section-spacing swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{background}}" wx:key="*this" wx:for-item="item">
+          <swiper-item>
+            <view class="swiper-item {{item.fileName}}"><image src="{{ip+item.fileUrl}}"></image></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="jgg">
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item zcfw">
+        <image src='asset/jgg.png'></image>        
+        </view>
+        <view class="flex-item jrfw">
+        <navigator url='../jrfw/jrfw'>
+        <image src='asset/jgg.png'></image>
+        </navigator>        
+        </view>
+        <view class="flex-item qysy">
+        <navigator url='../qysy/qysy'>
+        <image src='asset/jgg.png'></image>
+        </navigator>        
+        </view>       
+      </view>
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item zcfw">
+        <image src='asset/jgg.png'></image>        
+        </view>
+        <view class="flex-item zcfw">
+        <image src='asset/jgg.png'></image>        
+        </view>
+        <view class="flex-item zcfw">
+        <image src='asset/jgg.png'></image>        
+        </view>       
+      </view>
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item zcfw">
+        <image src='asset/jgg.png'></image>        
+        </view>
+        <view class="flex-item zcfw">
+        <image src='asset/jgg.png'></image>        
+        </view>
+        <view class="flex-item zcfw">
+        <image src='asset/jgg.png'></image>        
+        </view>       
+      </view>
+    </view>
+
+    
+  </view>
+  <view class=" notice">
+    <view class='t-title'>
+      <text>通知公告</text>
+      <navigator url='../list/list'>更多>></navigator>
+    </view>
+    <scroll-view scroll-x class="t-scroll-header">
+      <view class='t-rel-list' wx:for="{{rel}}" wx:key="id">
+        <image src='{{item.img}}'></image>
+        <text class='t-text conceal'>{{item.text}}</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="news">
+    <view class='t-title'>
+      <text>资讯</text>
+      <navigator url='../news/news'>更多>></navigator>
+    </view>
+    <view class='news-list' wx:for="{{list}}" wx:key="id">
+      <view class="lf">
+        <h4 class="news-title">{{item.title}}</h4>
+        <text class="news-time">{{item.time}}</text>
+        <text class="news-count">{{item.count}}阅读</text>
+        
+      </view>
+      <view class="rf"><image src="{{item.imgUrl}}"></image></view>
+    </view>
+  </view>
+</view>
